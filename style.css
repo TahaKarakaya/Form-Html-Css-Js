@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: #9ca8ad;
+}
+
+::selection{
+    background: rgba(red, rgb(109, 104, 36),rgb(228, 162, 39)e, alpha);
+}
+
+.container{
+    padding: 0 20px;
+    max-width: 440px;
+    margin: 170px auto;
+}
+
+.kayıt{
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 5px 10px 1px rgba(0,0,0,0.1);
+}
+
+.kayıt .title{
+    height: 90px;
+    background-color: #3a3a3a;
+    border-radius: 5px 5px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.kayıt form{
+    padding: 30px 25px 25px;
+}
+
+.kayıt form .row{
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.kayıt form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 1s ease; 
+}
+
+
+form .row input:focus{
+    border-color: #3a3a3a;
+    box-shadow: inset 0px 0px 2px 2px rgba(5, 85, 69, 0.25);
+}
+
+form .row input::placeholder{
+    color: rgb(97, 97, 97);
+}
+
+.kayıt form .row i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 100%;
+    background-color: #0F3460;
+    color: white;
+    border: 1px solid #2c3744;
+    border-radius: 5px 5px;
+    font-size: 20px;
+}
+
+.kayıt form .pass{
+    margin: -10px 0 20px 0;
+}
+
+
+.kayıt form .pass a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.kayıt form .pass a:hover{
+    text-decoration: underline;
+}
+
+.kayıt form .button input{
+    color: #fff;
+    background: #371B58;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+form .button input:hover{
+    background: #7e293b;
+}
+
+.kayıt form .singup-link{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.kayıt form .singup-link a{
+    text-decoration: none;
+    color: black;
+}
+
+form .singup-link a:hover{
+    text-decoration: underline;
+}
+
